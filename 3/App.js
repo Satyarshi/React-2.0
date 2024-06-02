@@ -5,7 +5,7 @@ const Title = () => <h1>This is title</h1>;
 
 const Heading = () => (
   <div>
-    <Title />
+    <Title /> {/*Component Composition*/}
     <h2>This is heading</h2>
   </div>
 );
